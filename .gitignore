@@ -1,0 +1,25 @@
+# Ignore SSH keys
+*.pem
+*.pub
+*key*
+
+# Ignore Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform modules/plugins
+.terraform/
+.terraform.lock.hcl
+
+# Ignore sensitive scripts (optional)
+*.sh
+.terraform/
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.log
+*.tfplan
+*.zip
+
